@@ -45,8 +45,8 @@ let tl, downloading = false, points = [],
 
 // Download Button Event Listener
 var link = document.createElement('a');
-link.href = '/src/assets/cv.pdf'; 
-link.download = 'Netanel CV.pdf'; 
+link.href = '/src/assets/Netanel Mazuz.pdf'; 
+link.download = 'Netanel Mazuz.pdf'; 
 
 
 $('button').click(function(){
