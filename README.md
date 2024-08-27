@@ -76,15 +76,19 @@ To view or edit this project, you need a basic understanding of HTML, CSS, and J
 
 ### Project Structure
 
-interactive-cv/
-├── assets/
-│   ├── cv.pdf           # The downloadable CV file
-│   ├── profile.jpg      # Profile picture used in the CV
-├── index.html          # The main HTML file
-├── resume.css          # Stylesheet for the webpage
-├── resume.js           # JavaScript file for interactivity
-├── profile.jpg         # Profile picture
-└── README.md           # Project README file
+<pre>
+   interactive-cv/  
+   ├── assets  
+   │     ├── cv.pdf           # The downloadable CV file  
+   │     ├── profile.jpg      # Profile picture used in the CV  
+   │     └── preview.png      # Preview image for the readme file  
+   ├── index.html             # The main HTML file  
+   ├── resume.css             # Stylesheet for the webpage  
+   ├── resume.js              # JavaScript file for interactivity  
+   ├── profile.jpg            # Profile picture  
+   ├── README.md              # Project README file  
+   └── LICENSE.md             # License file  
+</pre>
 
 ### Customization
 
