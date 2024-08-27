@@ -2,6 +2,10 @@
 
 This project is an interactive and visually appealing resume/CV webpage that highlights your professional experience, skills, education, and interests. The webpage is fully responsive, ensuring a great user experience across various devices.
 
+## Preview
+
+<img src="assets/preview.png" alt="Site Preview" width="600"/>
+
 ## Table of Contents
 
 - [Features](#features)
@@ -39,15 +43,19 @@ To view or edit this project, you need a basic understanding of HTML, CSS, and J
 
 1. Clone the repository:
 
-   ```bash
+
+   
    git clone https://github.com/your-username/interactive-cv.git
-   ```
+
+   
 
 2. Navigate to the project directory:
 
-   ```bash
+
+   
    cd interactive-cv
-   ```
+
+   
 
 3. Open the `index.html` file in your preferred web browser.
 
@@ -69,6 +77,9 @@ To view or edit this project, you need a basic understanding of HTML, CSS, and J
 ### Project Structure
 
 interactive-cv/
+├── assets/
+│   ├── cv.pdf           # The downloadable CV file
+│   ├── profile.jpg      # Profile picture used in the CV
 ├── index.html          # The main HTML file
 ├── resume.css          # Stylesheet for the webpage
 ├── resume.js           # JavaScript file for interactivity
@@ -76,6 +87,7 @@ interactive-cv/
 └── README.md           # Project README file
 
 ### Customization
+
 - **Profile Picture**: Replace `profile.jpg` with your own photo.
 - **Contact Information**: Update the contact details in the HTML file.
 - **Work Experience**: Modify the work experience section in the HTML file.
@@ -90,8 +102,10 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 
 ### License
 
-This project is licensed under the [MIT License](LICENSE).
----
-Feel free to customize this README to match your project's specific details and requirements.
----
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+### Contact
+
+- Email Address: [netazuz@gmail.com](mailto:netazuz@gmail.com)
+- GitHub Profile: [https://github.com/CodePro-art](https://github.com/CodePro-art)
+- LinkedIn Profile: [https://www.linkedin.com/in/netazuz/](https://www.linkedin.com/in/netazuz/)
