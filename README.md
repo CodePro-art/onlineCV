@@ -43,21 +43,17 @@ To view or edit this project, you need a basic understanding of HTML, CSS, and J
 
 1. Clone the repository:
 
-
-   
-   git clone https://github.com/your-username/interactive-cv.git
-
-   
+   ```bash
+   git clone https://github.com/CodePro-art/onlineCV.git
+   ```
 
 2. Navigate to the project directory:
 
-
-   
+   ```bash
    cd interactive-cv
+   ```
 
-   
-
-3. Open the `index.html` file in your preferred web browser.
+3. Open the `index.html` file in your preferred web browser, alternatively, you can use a local development server like Live Server in VS Code.
 
 ### Usage
 
