@@ -34,7 +34,7 @@ $('.skills-soft li').find('svg').each(function(i) {
 });
 
 let tl, downloading = false, points = [], 
-  btn = document.querySelector('.btn'),
+  btn = document.querySelector('.btnd'),
   dot = document.querySelector('.dot'),
   text = document.querySelector('.text'),
   mainCirc = document.querySelector('.mainCircle'),
@@ -49,7 +49,7 @@ link.href = 'assets/cv.pdf';
 link.download = 'Netanel Mazuz.pdf'; 
 
 
-$('button').click(function(){
+$('.download-btn').click(function(){
   var button =  $(this);
   button.addClass('active');
   document.body.appendChild(link);
@@ -125,3 +125,11 @@ function splitLetters(word) {
 
 changeWord();
 setInterval(changeWord, 4000);
+
+window.handleBackButton = function() {
+  if (window.history.length > 1) {
+    window.history.back();
+  } else {
+    window.location.href = "https://netanel-mazuz.dev/journey";
+  }
+}

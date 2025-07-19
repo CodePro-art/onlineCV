@@ -40,18 +40,16 @@ h3 {
   cursor: pointer;
 }
 .btn-back {
-  position: absolute;
+  position: fixed;
   background-color: #0277bd;
   width: 70px;
   height: 40px;
   border-radius: 9px;
-  top: 0;
-  left: 0;
+  border: rgb(0, 166, 255) .5px solid;
+  top: 10px;
+  left: 20px;
   z-index: 5;
   transition: 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
   margin: 12px;
 }
@@ -67,7 +65,7 @@ h3 {
 @keyframes pulse {
   0% {
       box-shadow: 0 0 0 0 #0277bd;
- }
+  }
 }
 button span {
   text-transform: uppercase;
